@@ -14,5 +14,13 @@ fields:
   type: text
   hidden: true
   default: home
+- name: blocks
+  type: blocks
+  template_types:
+  - slant-heros
+  config:
+    min: 
+    max: 
+  label: Blocks
 pages:
 - index.md
